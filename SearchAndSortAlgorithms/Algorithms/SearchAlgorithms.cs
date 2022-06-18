@@ -38,22 +38,22 @@ namespace SearchAndSortAlgorithms.Algorithms
         /// <returns>True if the interger "x" is in the integer array "array", false otherwise.</returns>
         public bool BinarySearch(int[] array, int x)
         {
-            var l = 0;
-            var r = array.Length - 1;
-            while(l <= r)
+            var left = 0;
+            var right = array.Length - 1;
+            while(left <= right)
             {
-                var m = (l + r) / 2;
-                if (x == array[m])
+                var mid = (left + right) / 2;
+                if (x == array[mid])
                 {
                     return true;
                 }
-                if(x < array[m])
+                if(x < array[mid])
                 {
-                    r = m-1;
+                    right = mid-1;
                 }
                 else
                 {
-                    l = m+1;
+                    left = mid+1;
                 }
             }
             return false;
