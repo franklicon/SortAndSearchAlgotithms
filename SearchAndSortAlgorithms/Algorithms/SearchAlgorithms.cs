@@ -29,5 +29,34 @@ namespace SearchAndSortAlgorithms.Algorithms
 
             return false;
         }
+
+        /// <summary>
+        /// Binary Search.
+        /// </summary>
+        /// <param name="array">A finite interger ordered array.</param>
+        /// <param name="x">The interger to find.</param>
+        /// <returns>True if the interger "x" is in the integer array "array", false otherwise.</returns>
+        public bool BinarySearch(int[] array, int x)
+        {
+            var l = 0;
+            var r = array.Length - 1;
+            while(l <= r)
+            {
+                var m = (l + r) / 2;
+                if (x == array[m])
+                {
+                    return true;
+                }
+                if(x < array[m])
+                {
+                    r = m-1;
+                }
+                else
+                {
+                    l = m+1;
+                }
+            }
+            return false;
+        }
     }
 }
