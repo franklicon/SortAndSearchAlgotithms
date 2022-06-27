@@ -34,5 +34,33 @@ namespace SearchAndSortAlgorithms.Algorithms
             }
             return array;
         }
+
+        /// <summary>
+        /// Selection Sort.
+        /// </summary>
+        /// <param name="array">A finite interger array.</param>
+        /// <returns>The array "array" in ascending order.</returns>
+        /// Time complexity: O(n^2).
+        public int[] SelectionSort(int[] array)
+        {
+            var n = array.Length - 1;
+            for(var i=0; i<n; i++)
+            {
+                var min = array[i];
+                var aux = i;
+                for(var j=i; j<n; j++)
+                {
+                    if(array[j] < min)
+                    {
+                        min = array[j];
+                        aux = j;
+                    }
+                }
+                var temp = array[i];
+                array[i] = min;
+                array[aux] = temp;
+            }
+            return array;
+        }
     }
 }
