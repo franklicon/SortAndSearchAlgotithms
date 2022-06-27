@@ -19,10 +19,10 @@ namespace SearchAndSortAlgorithms.Algorithms
         /// Time complexity: O(n^2).
         public int[] BubbleSort(int[] array)
         {
-            var length = array.Length - 1;
-            for(var n=0; n<length; n++)
+            var n = array.Length - 1;
+            for(var pass=0; pass<n; pass++)
             {
-                for (var i = 0; i < length - n; i++)
+                for (var i = 0; i < n - pass; i++)
                 {
                     if (array[i] > array[i + 1])
                     {
