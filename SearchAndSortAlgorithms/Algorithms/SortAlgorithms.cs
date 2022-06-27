@@ -20,15 +20,15 @@ namespace SearchAndSortAlgorithms.Algorithms
         public int[] BubbleSort(int[] array)
         {
             var n = array.Length - 1;
-            for(var pass=0; pass<n; pass++)
+            for(var i=0; i<n; i++)
             {
-                for (var i = 0; i < n - pass; i++)
+                for (var j = 0; j < n - i; j++)
                 {
-                    if (array[i] > array[i + 1])
+                    if (array[j] > array[j + 1])
                     {
-                        var temp = array[i];
-                        array[i] = array[i + 1];
-                        array[i + 1] = temp;
+                        var temp = array[j];
+                        array[j] = array[j + 1];
+                        array[j + 1] = temp;
                     }
                 }
             }
