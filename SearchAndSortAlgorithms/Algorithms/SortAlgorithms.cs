@@ -62,5 +62,30 @@ namespace SearchAndSortAlgorithms.Algorithms
             }
             return array;
         }
+
+        /// <summary>
+        /// Insertion Sort.
+        /// </summary>
+        /// <param name="array">A finite interger array.</param>
+        /// <returns>The array "array" in ascending order.</returns>
+        /// Time complexity: O(n^2).
+        public int[] InsertionSort(int[] array)
+        {
+            var n = array.Length - 1;
+            for(var i=0; i<n; i++)
+            {
+                for(var j=0; j<i; j++)
+                {
+                    if(array[i] < array[j])
+                    {
+                        var temp = array[j];
+                        array[j] = array[i];
+                        array[i] = temp;
+                        break;
+                    }
+                }
+            }
+            return array;
+        }
     }
 }

@@ -33,3 +33,7 @@ Console.WriteLine(string.Join(",", sortAlgorithms.BubbleSort(intArrayToSortB)));
 // Selection Sort.
 Console.WriteLine(string.Join(",", sortAlgorithms.SelectionSort(intArrayToSortA)));
 Console.WriteLine(string.Join(",", sortAlgorithms.SelectionSort(intArrayToSortB)));
+
+// Insertion Sort.
+Console.WriteLine(string.Join(",", sortAlgorithms.InsertionSort(intArrayToSortA)));
+Console.WriteLine(string.Join(",", sortAlgorithms.InsertionSort(intArrayToSortB)));

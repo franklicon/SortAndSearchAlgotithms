@@ -4,7 +4,6 @@ C:\Users\franc\Documents\Github\SortAndSearchAlgotithms\SearchAndSortAlgorithms\
 C:\Users\franc\Documents\Github\SortAndSearchAlgotithms\SearchAndSortAlgorithms\bin\Debug\net6.0\SearchAndSortAlgorithms.dll
 C:\Users\franc\Documents\Github\SortAndSearchAlgotithms\SearchAndSortAlgorithms\bin\Debug\net6.0\ref\SearchAndSortAlgorithms.dll
 C:\Users\franc\Documents\Github\SortAndSearchAlgotithms\SearchAndSortAlgorithms\bin\Debug\net6.0\SearchAndSortAlgorithms.pdb
-C:\Users\franc\Documents\Github\SortAndSearchAlgotithms\SearchAndSortAlgorithms\obj\Debug\net6.0\SearchAndSortAlgorithms.csproj.AssemblyReference.cache
 C:\Users\franc\Documents\Github\SortAndSearchAlgotithms\SearchAndSortAlgorithms\obj\Debug\net6.0\SearchAndSortAlgorithms.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\franc\Documents\Github\SortAndSearchAlgotithms\SearchAndSortAlgorithms\obj\Debug\net6.0\SearchAndSortAlgorithms.AssemblyInfoInputs.cache
 C:\Users\franc\Documents\Github\SortAndSearchAlgotithms\SearchAndSortAlgorithms\obj\Debug\net6.0\SearchAndSortAlgorithms.AssemblyInfo.cs
@@ -13,3 +12,4 @@ C:\Users\franc\Documents\Github\SortAndSearchAlgotithms\SearchAndSortAlgorithms\
 C:\Users\franc\Documents\Github\SortAndSearchAlgotithms\SearchAndSortAlgorithms\obj\Debug\net6.0\ref\SearchAndSortAlgorithms.dll
 C:\Users\franc\Documents\Github\SortAndSearchAlgotithms\SearchAndSortAlgorithms\obj\Debug\net6.0\SearchAndSortAlgorithms.pdb
 C:\Users\franc\Documents\Github\SortAndSearchAlgotithms\SearchAndSortAlgorithms\obj\Debug\net6.0\SearchAndSortAlgorithms.genruntimeconfig.cache
+C:\Users\franc\Documents\Github\SortAndSearchAlgotithms\SearchAndSortAlgorithms\obj\Debug\net6.0\SearchAndSortAlgorithms.csproj.AssemblyReference.cache
