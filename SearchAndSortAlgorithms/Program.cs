@@ -37,3 +37,7 @@ Console.WriteLine(string.Join(",", sortAlgorithms.SelectionSort(intArrayToSortB)
 // Insertion Sort.
 Console.WriteLine(string.Join(",", sortAlgorithms.InsertionSort(intArrayToSortA)));
 Console.WriteLine(string.Join(",", sortAlgorithms.InsertionSort(intArrayToSortB)));
+
+// Local Insertion Sort
+Console.WriteLine(string.Join(",", sortAlgorithms.LocalInsertionSort(intArrayToSortA)));
+Console.WriteLine(string.Join(",", sortAlgorithms.LocalInsertionSort(intArrayToSortB)));
